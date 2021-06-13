@@ -29,7 +29,7 @@ const Navbar = () => {
             <span className="text-xl font-bold border-b-4 text-green border-green md:text-2xl">{activeItem}</span>
             <div className="flex space-x-3 space-x-5 text-lg">
                 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="About" route='/' />
-                <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Projects" route='/projects' />
+                {/* <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Projects" route='/projects' /> */}
                 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Resume" route='/resume' />
             </div>
         </div>

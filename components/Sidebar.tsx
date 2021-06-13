@@ -1,5 +1,6 @@
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import {GoLocation} from 'react-icons/go';
+// import {AiOutlineDownload} from 'react-icons/ai';
 import {useTheme} from 'next-themes';
 
 const Sidebar = () => {
@@ -14,7 +15,7 @@ const Sidebar = () => {
                 <span>Karthik </span>Sripad
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Web Developer</p>
-            <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" href="" download="name">Download Resume</a>
+            {/* <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200" href="https://drive.google.com/file/d/1yeQZ8MVHdFkXnv-y4GojLegQCFDxr_9g/view?usp=sharing" download="name">Download Resume <span className="ml-2"><AiOutlineDownload /></span></a> */}
             <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
                 <a href="https://github.com/karthiksripad18">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
@@ -33,7 +34,7 @@ const Sidebar = () => {
                 <p className="my-2">+91 8095770169</p>
             </div>
             <button onClick={() => window.open('mailto:karthiksripad18@gmail.com')} className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none">Email me</button>
-            <button onClick={changeTheme} className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none">Toggle</button>
+            <button onClick={changeTheme} className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none">Toggle Theme</button>
         </div>
     )
 }

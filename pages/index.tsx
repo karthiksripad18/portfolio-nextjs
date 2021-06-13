@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
-        I am a Frontend Developer with 3 years of experience.<br />
+        I am a Web Developer with 3 years of experience.<br />
         I love learning new technologies & keeping myself updated.
       </h5>
       <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100" style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
