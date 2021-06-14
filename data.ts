@@ -12,7 +12,7 @@ export const services: IService[] = [
     },
     {
         title: "Competitive Coding",
-        about: "Regular competitive coding with AlgoExpert and AlgoExpert",
+        about: "Regular competitive coding with HackerRak and AlgoExpert",
         Icon: BsCodeSlash
     },
     {
